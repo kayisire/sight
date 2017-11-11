@@ -7,4 +7,6 @@ if(isset($_REQUEST['hub_challenge'])){
         echo $challenge;
     }
 }
-?>
+
+$input = file_get_contents('php://input');
+var_dump($input);
