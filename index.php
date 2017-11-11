@@ -1,2 +1,2 @@
 <?php
-    echo "Welcome to messenger bot!";
+    echo "Welcome to sight it bot!";
