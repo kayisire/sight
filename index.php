@@ -8,5 +8,5 @@ if(isset($_REQUEST['hub_challenge'])){
     }
 }
 
-// $input = file_get_contents('php://input');
-// var_dump($input);
+$input = file_get_contents('php://input');
+var_dump($input);
